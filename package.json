@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/math-base-special-betainc",
+  "version": "0.0.0",
+  "description": "Incomplete beta function.",
+  "license": "Apache-2.0 AND BSL-1.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-betainc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "special function",
+    "special",
+    "function",
+    "beta",
+    "incomplete beta",
+    "approximation",
+    "scalar",
+    "number"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
