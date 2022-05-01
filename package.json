@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-betainc",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Incomplete beta function.",
   "license": "Apache-2.0 AND BSL-1.0",
   "author": {
