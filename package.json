@@ -37,7 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-kernel-betainc": "^0.0.6"
+    "@stdlib/math-base-special-kernel-betainc": "^0.0.6",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.0.12",
