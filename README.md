@@ -41,19 +41,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-betainc
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-betainc/tags). For example,
-
-```javascript
-import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@v0.1.0-deno/mod.js';
+var betainc = require( '@stdlib/math-base-special-betainc' );
 ```
 
 #### betainc( x, a, b\[, regularized\[, upper]] )
@@ -122,8 +133,8 @@ var y = betainc( 0.5, 2.0, -2.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var betainc = require( '@stdlib/math-base-special-betainc' );
 
 var i;
 var x;
@@ -167,7 +178,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -197,8 +208,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-betainc.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-betainc
 
-[test-image]: https://github.com/stdlib-js/math-base-special-betainc/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/math-base-special-betainc/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/math-base-special-betainc/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-base-special-betainc/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-betainc/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-betainc?branch=main
@@ -231,11 +242,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta/tree/deno
+[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta
 
-[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv/tree/deno
+[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv
 
-[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln/tree/deno
+[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln
 
 <!-- </related-links> -->
 
