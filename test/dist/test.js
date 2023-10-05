@@ -29,7 +29,7 @@ var betainc = require( './../../dist' );
 
 // FIXTURES //
 
-var fixtures = require( './../..xtures/cpp/output.json' );
+var fixtures = require( './../fixtures/cpp/output.json' );
 var lowerRegularized = fixtures.lower_regularized;
 var lowerUnregularized = fixtures.lower_unregularized;
 var upperRegularized = fixtures.upper_regularized;
