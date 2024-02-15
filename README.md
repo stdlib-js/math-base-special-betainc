@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@deno/mod.js';
+import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@v0.2.0-deno/mod.js';
 ```
 
 #### betainc( x, a, b\[, regularized\[, upper]] )
@@ -118,7 +118,7 @@ var y = betainc( 0.5, 2.0, -2.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@deno/mod.js';
+import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@v0.2.0-deno/mod.js';
 
 var i;
 var x;
