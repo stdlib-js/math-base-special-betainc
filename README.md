@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@deno/mod.js';
+import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@v0.2.3-deno/mod.js';
 ```
 
 #### betainc( x, a, b\[, regularized\[, upper]] )
@@ -119,7 +119,7 @@ var y = betainc( 0.5, 2.0, -2.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@deno/mod.js';
+import betainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betainc@v0.2.3-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
